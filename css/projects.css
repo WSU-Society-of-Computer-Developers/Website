@@ -2,17 +2,44 @@
 .row {
     margin-bottom: 20px;
     padding: 40px 10% 0px 10%;
+    display: flex;
+    justify-content: center;
 }
 
-.tile_body, .tile_body2 {
+.tile_content{
+    display: flex;
+}
+
+.tile_body {
     width: 70%;
     height: 250px;
-    background-color: blueviolet;
+    background-color: #A66DA2;
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-    overflow: auto;
 }
 
-.tile_body2{
-    float: right;
+.title_block {
+    width: 33%;
+    height: 50px;
+    background-color: #678E66;
+    margin-top: -25px;
+    margin-left: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.textbox{
+    height: 250px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+    margin-left: 20px;
+    margin: 30px;
+
 }

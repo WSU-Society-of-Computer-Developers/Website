@@ -71,3 +71,23 @@
   position: absolute;
   box-shadow: 0 0 5px 5px rgba(34, 34, 34, 0.685);
 }
+.twitterIMG{
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+ margin-left:800px;
+ margin-top:-35px;
+  position: absolute;
+  box-shadow: 0 0 5px 5px rgba(34, 34, 34, 0.685);
+}
+.emailLink{
+  margin-left:40px;
+  
+text-decoration: none;
+color:black;
+}
+.emailLink:hover {
+  text-decoration: underline;
+  color:black;
+}
