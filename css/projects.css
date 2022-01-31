@@ -19,7 +19,7 @@
 }
 
 .title_block {
-    width: 33%;
+    width: fit-content;
     height: 50px;
     background-color: #678E66;
     margin-top: -25px;
