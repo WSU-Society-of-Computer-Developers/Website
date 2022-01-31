@@ -170,3 +170,10 @@ text-shadow: 2px 2px #588C49;
   flex-wrap: wrap;
   flex-direction: row;
 }
+img{
+  object-fit: cover;
+}
+.leaderJai{
+  text-align: center;
+  margin-top:25px;
+}
